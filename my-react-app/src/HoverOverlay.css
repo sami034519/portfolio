@@ -1,0 +1,326 @@
+.overlay {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .overlay::before {
+    content:"";
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:x-large;
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 35%;
+    background-color: black;
+    transition:top 0.5s ease;
+    z-index: 1;
+   opacity: 1;
+  }
+  .inner{
+    z-index: 2;
+    transition: color 0.5s ease;
+  }
+  
+  .overlay:hover::before {
+    top: 0;
+  }
+  .overlay:hover .inner{
+    color: rgb(255, 208, 0);
+    text-align: center;
+  }
+  .overlay1{
+    position: relative;
+    overflow: hidden;
+  }
+  .overlay1::before {
+    content:"";
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:x-large;
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 35%;
+    background-color: black;
+    transition:top 0.5s ease;
+    z-index: 1;
+   opacity: 1;
+  }
+  .inner1{
+    z-index: 2;
+    transition: color 0.5s ease;
+  }
+  
+  .overlay1:hover::before {
+    top: 0;
+  }
+  .overlay1:hover .inner1{
+    color: rgb(255, 208, 0);
+    text-align: center;
+  }
+
+  .overlay2{
+    position: relative;
+    overflow: hidden;
+  }
+  .overlay2::before {
+    content:"";
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:x-large;
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 35%;
+    background-color: black;
+    transition:top 0.5s ease;
+    z-index: 1;
+   opacity: 1;
+  }
+  .inner2{
+    z-index: 2;
+    transition: color 0.5s ease;
+  }
+  
+  .overlay2:hover::before {
+    top: 0;
+  }
+  .overlay2:hover .inner2{
+    color: rgb(255, 208, 0);
+    text-align: center;
+  }
+  .optimization {
+    position: relative;
+    overflow: hidden;
+}
+
+.optimization::before {
+  content: "";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  position: absolute;
+  top: 96%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  transition: top 0.5s ease;
+  z-index: 1;
+  opacity: 1;
+}
+
+.optimization1,
+.optimization2 {
+  position: relative; 
+  z-index: 2;
+  transition: color 0.5s ease;
+  color: initial; 
+}
+
+.optimization:hover::before {
+  top: 0;
+}
+
+.optimization:hover .optimization1,
+.optimization:hover .optimization2 {
+  color: rgb(255, 208, 0); }
+
+
+
+  .secondcard{
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .secondcard::before {
+    content: "";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    position: absolute;
+    top: 96%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    transition: top 0.5s ease;
+    z-index: 1;
+    opacity: 1;
+  }
+  
+  .secondcard1, .secondcard2 {
+    position: relative; 
+    z-index: 2;
+    transition: color 0.5s ease;
+    color: initial; 
+  }
+  
+  .secondcard:hover::before {
+    top: 0;
+  }
+  
+  .secondcard:hover .secondcard1,
+  .secondcard:hover .secondcard2 {
+    color: rgb(255, 208, 0); 
+  }
+  .thirdcard{
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .thirdcard::before {
+    content: "";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    position: absolute;
+    top: 96%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    transition: top 0.5s ease;
+    z-index: 1;
+    opacity: 1;
+  }
+  
+  .thirdcard1, .thirdcard2 {
+    position: relative; 
+    z-index: 2;
+    transition: color 0.5s ease;
+    color: initial; 
+  }
+  
+  .thirdcard:hover::before {
+    top: 0;
+  }
+  
+  .thirdcard:hover .thirdcard1,
+  .thirdcard:hover .thirdcard2 {
+    color: rgb(255, 208, 0); 
+  }
+  .fourthcard{
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .fourthcard::before {
+    content: "";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    position: absolute;
+    top: 96%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    transition: top 0.5s ease;
+    z-index: 1;
+    opacity: 1;
+  }
+  
+  .fourthcard1, .fourthcard2 {
+    position: relative; 
+    z-index: 2;
+    transition: color 0.5s ease;
+    color: initial; 
+  }
+  
+  .fourthcard:hover::before {
+    top: 0;
+  }
+  
+  .fourthcard:hover .fourthcard1,
+  .fourthcard:hover .fourthcard2 {
+    color: rgb(255, 208, 0); 
+   
+  }
+  
+
+ .imgtooverlay:hover .overlaytoshow{
+    display: block;
+ } 
+ .port1show{
+  display:none;
+ }
+ .port1:hover .port1show{
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  
+} 
+.port2show{
+  display:none;
+ }
+ .port2:hover .port2show{
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+.port3show{
+  display:none;
+ }
+ .port3:hover .port3show{
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+.port4show{
+  display:none;
+ }
+ .port4:hover .port4show{
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+  
+  
+ 
+  
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideOutToRight {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  .slide-enter {
+    animation: slideInFromLeft 1s ease-in-out forwards;
+  }
+  
+  .slide-exit {
+    animation: slideOutToRight 1s ease-in-out forwards;
+  }
+  
